@@ -48,7 +48,12 @@ ninja.data = [{
             window.open("https://www.linkedin.com/pulse/defense-communication-technology-sanjana-nandi/", "_blank");
           
         },
-      },{id: "books-the-godfather",
+      },{id: "books-the-alchemist",
+          title: 'The Alchemist',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_alchemist/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
