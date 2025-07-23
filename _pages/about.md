@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about/
 subtitle: Software engineer with a B.S. and M.Eng. in Computer Science from Cornell University
 
 profile:
