@@ -25,4 +25,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). 
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com).
