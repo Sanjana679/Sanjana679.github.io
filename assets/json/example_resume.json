@@ -1,36 +1,36 @@
 {
   "basics": {
-    "name": "Sanjana Nandi",
-    "label": "Software Engineer",
+    "name": "Albert Einstein",
+    "label": "Scientist",
     "image": "",
-    "email": "sanjana@nandi.net",
-    "phone": "(650) 471-9440",
-    "url": "https://sanjana679.github.io/",
-    "summary": "Software engineer with a B.S. and M.Eng. in Computer Science from Cornell University (GPA: 3.5), bringing robust experience in Python and Java development, image processing, and full-stack systems. Proven success contributing to enterprise-scale projects at L3Harris Technologies, Stanford Linear Accelerator Center LCLS, and Amazon's open-source initiative.",
+    "email": "albert@einstein.de",
+    "phone": "(912) 123-4567",
+    "url": "https://alshedivat.github.io/al-folio/",
+    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Rochester, NY",
-      "countryCode": "",
-      "region": ""
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
     },
     "profiles": [
       {
-        "network": "",
-        "username": "",
-        "url": ""
+        "network": "Twitter",
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
       }
     ]
   },
   "work": [
     {
-      "name": "Cornell Cup Robotics",
-      "position": "XRP CS Lead",
+      "name": "Institute for Advanced Study, Princeton University",
+      "position": "Professor of Theoretical Physics",
       "url": "https://example.com",
-      "startDate": "2024-01-22",
-      "endDate": "2025-06-01",
-      "summary": "",
-      "highlights": ["Led a team of 10 engineers to deliver scalable, modular software systems that supported classroom deployments of XRP across diverse hardware platforms.", "Improved hardware-software communication latency by 35% through a redesigned USB serial protocol, enhancing real-time responsiveness.", "Reduced onboarding time by 25% via architectural refactoring and comprehensive documentation.", "Served as liaison to external partners including SparkFun and Raspberry Pi, aligning R&D priorities with hardware constraints.", "Presented XRP innovations to 5+ U.S. senators and senior industry leaders at the national XRP Consortium summit in Washington, D.C."]
+      "startDate": "1933-01-01",
+      "endDate": "1955-01-01",
+      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": ["Relativity"]
     }
   ],
   "volunteer": [
