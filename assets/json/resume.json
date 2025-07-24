@@ -131,7 +131,7 @@
   "education": [
     {
       "institution": "Cornell University",
-      "location": "Ithaca, New York, United States",
+      "location": "Ithaca, NY, USA",
       "url": "https://www.cornell.edu/",
       "area": "Computer Science",
       "studyType": "Masters of Engineering",
@@ -144,7 +144,7 @@
     },
     {
       "institution": "Cornell University",
-      "location": "Ithaca, New York, United States",
+      "location": "Ithaca, NY, USA",
       "url": "https://www.cornell.edu/",
       "area": "Computer Science",
       "studyType": "Bachelors of Science",
@@ -158,7 +158,7 @@
     },
     {
       "institution": "Evergreen Valley College",
-      "location": "San Jose, California, United States",
+      "location": "San Jose, CA, USA",
       "url": "https://sjeccd.edu/",
       "area": "General Education",
       "studyType": "Miscellaneous",
@@ -174,7 +174,7 @@
     },
     {
       "institution": "Santa Teresa High School",
-      "location": "San Jose, California, United States",
+      "location": "San Jose, CA, USA",
       "url": "https://santateresahigh.esuhsd.org/",
       "area": "General Education",
       "studyType": "High School Diploma",
