@@ -30,7 +30,13 @@
       "startDate": "2024-01-22",
       "endDate": "2025-06-01",
       "summary": "",
-      "highlights": ["Led a team of 10 engineers to deliver scalable, modular software systems that supported classroom deployments of XRP across diverse hardware platforms.", "Improved hardware-software communication latency by 35% through a redesigned USB serial protocol, enhancing real-time responsiveness.", "Reduced onboarding time by 25% via architectural refactoring and comprehensive documentation.", "Served as liaison to external partners including SparkFun and Raspberry Pi, aligning R&D priorities with hardware constraints.", "Presented XRP innovations to 5+ U.S. senators and senior industry leaders at the national XRP Consortium summit in Washington, D.C."]
+      "highlights": [
+        "Led a team of 10 engineers to deliver scalable, modular software systems that supported classroom deployments of XRP across diverse hardware platforms.", 
+        "Improved hardware-software communication latency by 35% through a redesigned USB serial protocol, enhancing real-time responsiveness.", 
+        "Reduced onboarding time by 25% via architectural refactoring and comprehensive documentation.", 
+        "Served as liaison to external partners including SparkFun and Raspberry Pi, aligning R&D priorities with hardware constraints.", 
+        "Presented XRP innovations to 5+ U.S. senators and senior industry leaders at the national XRP Consortium summit in Washington, D.C."
+      ]
     }, 
     {
       "name": "Cornell Cup Robotics",
@@ -64,8 +70,8 @@
       "name": "Amazon Open Source Contributor Initiative",
       "position": "Open Source Developer",
       "url": "",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2023-09-20",
+      "endDate": "2023-12-13",
       "summary": "",
       "highlights": [
         "Selected for a competitive open-source mentorship program (5% acceptance rate) led by Amazon engineers",
@@ -78,8 +84,8 @@
       "name": "L3Harris Technologies",
       "position": "Image Science Intern",
       "url": "https://www.l3harris.com/",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2023-06-05",
+      "endDate": "2023-08-11",
       "summary": "",
       "highlights": [
         "Developed Python tool to streamline quality control for satellite imagery in ML data pipelines",
@@ -93,8 +99,8 @@
       "name": "L3Harris Technologies",
       "position": "Image Science Intern",
       "url": "https://www.l3harris.com/",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2022-06-06",
+      "endDate": "2022-08-12",
       "summary": "",
       "highlights": [
         "Evaluate OpenCV image processing routines and machine learning backends (TensorFlow, PyTorch, Gluon, and Caffe) to recommend optimal solutions for future remote sensing systems",
@@ -105,8 +111,8 @@
       "name": "Stanford Linear Accelerator Center LCLS",
       "position": "Data Analysis Intern",
       "url": "https://lcls.slac.stanford.edu/",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2021-08-03",
+      "endDate": "2021-10-15",
       "summary": "",
       "highlights": [
         "Performed a parametric study on the Cori supercomputer using Dragonfly to evaluate how particle species, size, and sampling rate affect single-particle reconstruction quality",
@@ -118,8 +124,8 @@
       "name": "Stanford Linear Accelerator Center LCLS",
       "position": "Data Analysis Intern",
       "url": "https://lcls.slac.stanford.edu/",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2020-07-07",
+      "endDate": "2020-08-28",
       "summary": "",
       "highlights": [
         "Analyzed soft X-ray beamline data to determine the degree of linear polarization of LCLS free-electron laser (FEL) radiation",
