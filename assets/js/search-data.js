@@ -109,6 +109,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-exploring-reward-sharing-strategies-for-effective-cooperative-multi-agent-task-completion",
+          title: 'Exploring Reward Sharing Strategies for Effective Cooperative Multi-Agent Task Completion',
+          description: "Final project for CS 5756 Introduction to Robot Learning at Cornell University (M.Eng. CS program)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cs5756-final-proj/";
             },},{
         id: 'social-email',
         title: 'email',
