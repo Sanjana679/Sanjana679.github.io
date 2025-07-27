@@ -5,7 +5,7 @@ description: Final project for CS 5756 Introduction to Robot Learning at Cornell
 img: assets/img/projects/cs5756-final-project/cover.png
 importance: 1
 category: school
-related_publications: false
+related_publications: true
 ---
 
 People: Juji Lau, Sanjana Nandi \
@@ -37,15 +37,15 @@ the most effective task completion in multi-agent, cooperation-dependent setting
 that in such a setting, agents trained with Partially Shared Rewards ($R_{ps}$), will achieve better task
 coverage and cooperation than agents trained with Purely Individual Rewards ($R_i$), which in turn will outperform agents trained with Entirely Shared Rewards ($R_s$).
 
-## 3. Approach
+## 3. Experimental Setup
 
 To test our hypothesis, we trained agents with the Multi-Agent Proximal Policy Optimization (MAPPO) algorithm using reward function(s) from each of the three categories.
 
-### 3.1 Experimental Setup: Environment
+### 3.1 Environment
 
 For our multi-agent cooperative environment, we used the [Simple Spread](https://pettingzoo.farama.org/environments/mpe/simple_spread/) environment from [PettingZoo](https://pettingzoo.farama.org/}{PettingZoo)'s library [Multi-Agent Particle Environments (MPE)](https://pettingzoo.farama.org/environments/mpe/) {% cite yu2022 %} {% cite mordatch2017emergence %}.Simple Spread is a cooperative game where _N_ agents must attempt to cover _N_ stationary landmarks in _t_ time-steps without colliding.  We chose Simple Spread because it's a _fully_ cooperative task (i.e., there are no competitive elements), which encourages all agents to work towards a common goal.  This setup allows us to compare the effectiveness of different reward structures without confounding factors.
 
-### 3.2 Experimental Setup: Training
+### 3.2 Training
 
 To maximize the models’ performance under their given reward function, while ensuring a fair
 evaluation, all models were trained with the following parameters:
@@ -66,7 +66,7 @@ evaluation, all models were trained with the following parameters:
 
 If not listed above, we used the defaults provided by the MAPPO implementation {% cite yu2022 %} {% cite mordatch2017emergence %}. These parameters gave the best average reward and entropy across all three reward schemes. Additionally, the number of landmarks and agents is set at (N = 3) for all models.
 
-### 3.3 Experimental Setup: Reward Structures
+### 3.3 Reward Structures
 
 To test our hypothesis about how reward structure influences cooperative task performance under MAPPO, we modified the official implementation of MAPPO {% cite lowe2017multi %} to train three variants, each using one of our defined reward schemes. The reward function for each structure is given below:
 
@@ -168,7 +168,7 @@ To test our hypothesis about how reward structure influences cooperative task pe
         return progress + collision_penalty
 ```
 
-### 3.4 Experimental Setup: Evaluation
+### 3.4 Evaluation
 
 To provide a consistent baseline comparison and to ensure a fair evaluation, the performance of all models were evaluated using Simple Spread’s original reward function:
 
@@ -208,7 +208,16 @@ The final spatial coverage achieved by 3 agents after 25 time steps in the Simpl
     </div>
 </div>
 <div class="caption">
-    Figure 1: **Purely Individual Rewards** This figure depicts the final landmark coverage of _N_ = 3 agents trained under the _purely individual reward_ function
+    Figure 1: Purely Individual Rewards. This figure depicts the final landmark coverage of N = 3 agents trained under the purely individual reward function.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/cs5756-final-project/partially_shared_final.png" title="Partially Shared Reward Result" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 2: Partially Shared Individual Rewards. This figure depicts the final landmark coverage of N = 3 agents trained under the partially shared individual reward function.
 </div>
 
 <div class="row">
@@ -217,10 +226,10 @@ The final spatial coverage achieved by 3 agents after 25 time steps in the Simpl
     </div>
 </div>
 <div class="caption">
-    Figure 3: **Entirely Shared Rewards** This figure depicts the final landmark coverage of _N_=3 agents trained under the _entirely shared reward_ function. 
+    Figure 3: Entirely Shared Rewards. This figure depicts the final landmark coverage of N = 3 agents trained under the entirely shared reward function.
 </div>
 
-Although none of the reward schemes resulted in all of the landmarks being covered, the partially shared reward scheme came the closest, followed by entirely shared reward scheme, and then the individual reward scheme. 
+Although none of the reward schemes resulted in all of the landmarks being covered, the partially shared reward scheme came the closest, followed by entirely shared reward scheme, and then the individual reward scheme.
 
 With the individual reward scheme, the agents optimized their own rewards and often converged on the same landmarks, resulting in poor coverage and coordination. The partially shared reward scheme lead to an attempt at unsuccessful coordination as a result of conflicting reward signals from the individual and shared components. The shared reward scheme produced the most effective group behavior: the agents tried to distribute themselves across landmarks with minimal collisions. This seems to suggest that shared rewards can encourage cooperative behavior and more efficient task completion in multi-agent situations.
 
@@ -244,7 +253,7 @@ Meaning the maximum entropy for out agents is given by $H_{max} = log(5) = 1.609
 - $h_{model} = 1.0$: the policy is starting to prefer certain actions
 - $h_{model} = 0.5$: the policy is very confident, often choosing the same actions
 
-As shown in the graphs, all reward types experience a downwawrd trajectory of entropy as the model trains. It appears that the _less_ individualistic the reward, the _faster_ the entropy converges to zero. In other words, individualism _encourages_ model exploration. 
+As shown in the graphs, all reward types experience a downward trajectory of entropy as the model trains. It appears that the _less_ individualistic the reward, the _faster_ the entropy converges to zero. In other words, individualism _encourages_ model exploration.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
