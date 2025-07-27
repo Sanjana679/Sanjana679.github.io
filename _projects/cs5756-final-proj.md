@@ -50,7 +50,7 @@ For our multi-agent cooperative environment, we used the [Simple Spread](https:/
 To maximize the models’ performance under their given reward function, while ensuring a fair
 evaluation, all models were trained with the following parameters:
 
-```
+```bash
     --num_env_steps 100000
     --episode_length 25
     --ppo_epoch 30 # previously 15
@@ -72,7 +72,7 @@ To test our hypothesis about how reward structure influences cooperative task pe
 
 1. _Purely Individual Rewards_: The rewards for each agent are based purely on individual performance. (This encourages selfish behavior).
 
-```
+```python
     def individual():
         ideal_dist = 0.25
         tolerance = 0.1
@@ -107,7 +107,7 @@ To test our hypothesis about how reward structure influences cooperative task pe
 
 2. _Partially Shared Rewards_: The rewards for each agent are dependent on both individual performance and collective progress. (This encourages a mix of selfish behavior and global coordination).
 
-```
+```python
     def partially_shared():
         # Individual component
         individual_rewards = []
@@ -145,7 +145,7 @@ To test our hypothesis about how reward structure influences cooperative task pe
 
 3. _Entirely Shared Rewards_: All agents receive the same reward, which is a function of collective progress. (This encourages global coordination).
 
-```
+```python
     def shared():
         total_dist = 0
         for l in world.landmarks:
@@ -172,7 +172,7 @@ To test our hypothesis about how reward structure influences cooperative task pe
 
 To provide a consistent baseline comparison and to ensure a fair evaluation, the performance of all models were evaluated using Simple Spread’s original reward function:
 
-```
+```python
     def reward(self, agent, world):
         # Agents are rewarded based on minimum agent distance to each landmark:
         rew = 0
