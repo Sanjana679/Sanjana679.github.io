@@ -70,7 +70,7 @@ If not listed above, we used the defaults provided by the MAPPO implementation {
 
 To test our hypothesis about how reward structure influences cooperative task performance under MAPPO, we modified the official implementation of MAPPO {% cite lowe2017multi %} to train three variants, each using one of our defined reward schemes. The reward function for each structure is given below:
 
-1. _Purely Individual Rewards_: The rewards for each agent are based purely on individual performance. (This encourages selfish behavior).
+1._Purely Individual Rewards_: The rewards for each agent are based purely on individual performance. (This encourages selfish behavior).
 
 ```python
     def individual():
@@ -105,7 +105,7 @@ To test our hypothesis about how reward structure influences cooperative task pe
         return proximity_reward + collision_loss
 ```
 
-2. _Partially Shared Rewards_: The rewards for each agent are dependent on both individual performance and collective progress. (This encourages a mix of selfish behavior and global coordination).
+2._Partially Shared Rewards_: The rewards for each agent are dependent on both individual performance and collective progress. (This encourages a mix of selfish behavior and global coordination).
 
 ```python
     def partially_shared():
@@ -143,7 +143,7 @@ To test our hypothesis about how reward structure influences cooperative task pe
         + 0.4 * (shared_progress + coverage_bonus * 0.1)
 ```
 
-3. _Entirely Shared Rewards_: All agents receive the same reward, which is a function of collective progress. (This encourages global coordination).
+3._Entirely Shared Rewards_: All agents receive the same reward, which is a function of collective progress. (This encourages global coordination).
 
 ```python
     def shared():
