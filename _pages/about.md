@@ -25,4 +25,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com).
+Hi, I'm Sanjana Nandi — a software engineer that likes building things that solve real-world problems. My work bridges research and practical application, driven by a fascination with how abstract ideas translate into tools that shape people’s lives.
+
+I specialize in machine learning and computational imaging, though I am fascinated by distributed systems. I've worked on projects from topics ranging from multi-agent task completion to natural language processing. I’m always seeking opportunities to collaborate on meaningful, high-impact work.
+
+Outside of work, you might find me reading or crocheting.
+
+If you’re interested in working together, chatting about research, or just swapping ideas over coffee (virtual or real), feel free to contact me at the socials below.
