@@ -5,7 +5,7 @@ description: Final project for CS 6662 Computational Imaging at Cornell Universi
 img: assets/img/projects/cs-6662-final-project/cover.png
 importance: 1
 category: school
-related_publications: true
+related_publications: false
 ---
 <!-- <iframe 
   src="/assets/pdf/CS_6662_Final_Report.pdf" 
