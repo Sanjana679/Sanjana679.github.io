@@ -1,6 +1,6 @@
 name: "New Page"
 description: "Propose a new addition to the website"
-title: "[Feature]: "
+title: "[Page]: "
 
 body:
   - type: input
