@@ -1,1 +1,22 @@
+name: "New Page"
+description: "Propose a new addition to the website"
+title: "[Feature]: "
 
+body:
+  - type: input
+    id: feature_title
+    attributes:
+      label: "Feature Title"
+      placeholder: "e.g., Dark Mode Toggle"
+
+  - type: input
+    id: page_location
+    attributes:
+      label: "Page/Section"
+      placeholder: "e.g., Homepage, Profile Page, Dashboard"
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      placeholder: "Add any extra necessary details here."
