@@ -14,6 +14,6 @@ related_publications: false
 
 <iframe
   src="/assets/pdf/CS_6662_Final_Report.pdf"
-  style="width: 100%; height: 80vh; border: none; overflow: hidden">
+  style="width: 100%; height: 100vh; border: none; overflow: hidden">
 </iframe>
 
