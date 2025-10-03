@@ -4,12 +4,6 @@ title: "[Page]: "
 
 body:
   - type: input
-    id: feature_title
-    attributes:
-      label: "Feature Title"
-      placeholder: "e.g., Dark Mode Toggle"
-
-  - type: input
     id: page_location
     attributes:
       label: "Page/Section"
