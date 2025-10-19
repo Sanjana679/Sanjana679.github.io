@@ -204,7 +204,7 @@ The final spatial coverage achieved by 3 agents after 25 time steps in the Simpl
  
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cs5756-final-project/individual_final.png" title="Individual Shared Reward Result" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cs5756-final-project/individual_final.png" title="Individual Shared Reward Result" class="img-fluid rounded z-depth-1" style="width:50%; height:auto;"%}
     </div>
 </div>
 <div class="caption">
@@ -213,7 +213,7 @@ The final spatial coverage achieved by 3 agents after 25 time steps in the Simpl
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cs5756-final-project/partially_shared_final.png" title="Partially Shared Reward Result" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cs5756-final-project/partially_shared_final.png" title="Partially Shared Reward Result" class="img-fluid rounded z-depth-1" style="width:50%; height:auto;"%}
     </div>
 </div>
 <div class="caption">
@@ -222,7 +222,7 @@ The final spatial coverage achieved by 3 agents after 25 time steps in the Simpl
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/cs5756-final-project/shared_final.png" title="Entirely Shared Reward Result" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cs5756-final-project/shared_final.png" title="Entirely Shared Reward Result" class="img-fluid rounded z-depth-1"  style="width:50%; height:auto;"%}
     </div>
 </div>
 <div class="caption">
