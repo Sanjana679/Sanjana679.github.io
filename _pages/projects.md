@@ -27,9 +27,9 @@ horizontal: true
       {% for project in sorted_projects %}
         <div class="card mb-4 hoverable">
           <div class="row g-0 align-items-center">
-            {% if project.thumbnail %}
+            {% if project.img %}
             <div class="col-md-4">
-              <img src="{{ project.thumbnail | relative_url }}" class="img-fluid rounded-start" alt="{{ project.title }}">
+              <img src="{{ project.img | relative_url }}" class="img-fluid rounded-start" alt="{{ project.title }}">
             </div>
             {% endif %}
             <div class="col-md-8">
@@ -72,9 +72,9 @@ horizontal: true
       {% for project in sorted_projects %}
         <div class="card mb-4 hoverable">
           <div class="row g-0 align-items-center">
-            {% if project.thumbnail %}
+            {% if project.img %}
             <div class="col-md-4">
-              <img src="{{ project.thumbnail | relative_url }}" class="img-fluid rounded-start" alt="{{ project.title }}">
+              <img src="{{ project.img | relative_url }}" class="img-fluid rounded-start" alt="{{ project.title }}">
             </div>
             {% endif %}
             <div class="col-md-8">
