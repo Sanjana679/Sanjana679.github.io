@@ -206,27 +206,23 @@ The final spatial coverage achieved by 3 agents after 25 time steps in the Simpl
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/cs5756-final-project/individual_final.png" title="Individual Shared Reward Result" class="img-fluid rounded z-depth-1" style="width:50%; height:auto;"%}
     </div>
-</div>
-<div class="caption">
-    Figure 1: Purely Individual Rewards. This figure depicts the final landmark coverage of N = 3 agents trained under the purely individual reward function.
-</div>
-
-<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/cs5756-final-project/partially_shared_final.png" title="Partially Shared Reward Result" class="img-fluid rounded z-depth-1" style="width:50%; height:auto;"%}
     </div>
-</div>
-<div class="caption">
-    Figure 2: Partially Shared Individual Rewards. This figure depicts the final landmark coverage of N = 3 agents trained under the partially shared individual reward function.
-</div>
-
-<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/cs5756-final-project/shared_final.png" title="Entirely Shared Reward Result" class="img-fluid rounded z-depth-1"  style="width:50%; height:auto;"%}
     </div>
 </div>
-<div class="caption">
-    Figure 3: Entirely Shared Rewards. This figure depicts the final landmark coverage of N = 3 agents trained under the entirely shared reward function.
+<div class="row">
+    <div class="caption">
+        Figure 1: Purely Individual Rewards. This figure depicts the final landmark coverage of N = 3 agents trained under the purely individual reward function.
+    </div>
+    <div class="caption">
+        Figure 2: Partially Shared Individual Rewards. This figure depicts the final landmark coverage of N = 3 agents trained under the partially shared individual reward function.
+    </div>
+    <div class="caption">
+        Figure 3: Entirely Shared Rewards. This figure depicts the final landmark coverage of N = 3 agents trained under the entirely shared reward function.
+    </div>
 </div>
 
 Although none of the reward schemes resulted in all of the landmarks being covered, the partially shared reward scheme came the closest, followed by entirely shared reward scheme, and then the individual reward scheme.
