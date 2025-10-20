@@ -53,16 +53,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_alchemist/";
-            },},{id: "projects-exploring-reward-sharing-strategies-for-effective-cooperative-multi-agent-task-completion",
-          title: 'Exploring Reward Sharing Strategies for Effective Cooperative Multi-Agent Task Completion',
-          description: "Final project for CS 5756 Introduction to Robot Learning at Cornell University (M.Eng. CS program)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/cs5756-final-proj/";
             },},{id: "projects-adjusting-daytime-dehazing-algorithms-to-low-light-and-nighttime-scenarios",
           title: 'Adjusting Daytime Dehazing Algorithms to Low-Light and Nighttime Scenarios',
           description: "Final project for CS 6662 Computational Imaging at Cornell University (M.Eng. CS program)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cs6662-final-proj/";
+            },},{id: "projects-exploring-reward-sharing-strategies-for-effective-cooperative-multi-agent-task-completion",
+          title: 'Exploring Reward Sharing Strategies for Effective Cooperative Multi-Agent Task Completion',
+          description: "Final project for CS 5756 Introduction to Robot Learning at Cornell University (M.Eng. CS program)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cs5756-final-proj/";
             },},{
         id: 'social-email',
         title: 'email',
