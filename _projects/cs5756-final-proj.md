@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Exploring Reward Sharing Strategies for Effective Cooperative Multi-Agent Task Completion
+date: May 2025
 description: Final project for CS 5756 Introduction to Robot Learning at Cornell University (M.Eng. CS program)
-img: assets/img/projects/cs5756-final-project/cover.png
+img: 
 importance: 1
 category: school
 related_publications: true
